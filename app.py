@@ -17,7 +17,7 @@ from google.colab import userdata
 
 def generate_response(resume_text, job_description, prompt, extra_words):
     # Set up Gemini API client with your API key
-    endpoint ='llmats.com'
+    #endpoint ='llmats.com'
     api_key=userdata.get('GOOGLE_API_KEY')
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')
@@ -42,7 +42,7 @@ if st.button("Generate Improved Resume"):
 def edit_resume(resume_text):
     # ... Similar structure to generate_response, but using a fixed
     #     prompt for resume editing
-    endpoint ='llmats.com'
+    #endpoint ='llmats.com'
     api_key=userdata.get('GOOGLE_API_KEY')
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')
