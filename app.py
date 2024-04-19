@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-! pip install streamlit
+!pip install streamlit
 #!pip install streamlit google-generativeai textblob dotenv
 
 pip install load_dotenv
