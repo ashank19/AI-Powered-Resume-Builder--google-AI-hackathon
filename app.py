@@ -11,13 +11,16 @@ import streamlit as st
 from google.cloud import aiplatform
 from google.oauth2 import service_account
 from google.protobuf import json_format
-import load_dotenv
+from dotenv import load_dotenv
+import os
 import google.generativeai as genai
 from google.colab import userdata
+load_dotenv()
 
 def generate_response(resume_text, job_description, prompt, extra_words):
     # Set up Gemini API client with your API key
     #endpoint ='llmats.com'
+    genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
     api_key=userdata.get('GOOGLE_API_KEY')
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-pro')
