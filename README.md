@@ -7,7 +7,7 @@ Follow instructions to execute the command:-
 
 1. Download the Resume optimizer and requirements .txt file on your local host
 2. Create a virtual environment.
-3. Create a folder in the location containing the above two files and download the linkedin_connect.py file there.
+3. Create a folder 'pages' in the location containing the above two files and download the linkedin_connect.py file there.
 3. Run the following commands:-
    
    > cd my_streamlit_project
