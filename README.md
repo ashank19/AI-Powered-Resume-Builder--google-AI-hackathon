@@ -23,6 +23,9 @@ To create your own gemini api key follow [this.](https://www.googleadservices.co
 
 Now create a .env file in your parent folder containing resume optimizer file. 
 assign your api key 
-GOOGLE_API_KEY=''
+
+GOOGLE_API_KEY='********'
+
 save that file
+
 Now your API is ready to use
