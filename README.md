@@ -9,8 +9,11 @@ Follow instructions to execute the command:-
 2. Create a virtual environment.
 3. Create a folder in the location containing the above two files and download the linkedin_connect.py file there.
 3. Run the following commands:-
+   
    > cd my_streamlit_project
-  > pip install -r requirements.txt
-  > streamlit run Resume_Optimizer.py
+   
+   > pip install -r requirements.txt
+   
+   > streamlit run Resume_Optimizer.py
 
 your application is now hosted on your local system.
