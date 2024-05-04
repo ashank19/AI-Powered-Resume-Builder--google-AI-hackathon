@@ -44,6 +44,6 @@ elif temperature>0.66:
 
 
 if st.button("Generate Personalized Invite"):
-    response_text = generate_response(resume_text, prompt, temperature,relevant_info,user_input)
+    response_text = generate_response(resume_text, prompt, relevant_info,temperature,user_input)
     st.text_area("Personalized Invite:", response_text)
 
